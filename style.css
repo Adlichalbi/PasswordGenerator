@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(28, 28, 28, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+.card {
+  background-color: rgba(31, 41, 55, 1);
+  width: 500px;
+  height: 500px;
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 170px;
+  background-color: rgba(16, 185, 129, 1);
+  color: rgb(240, 233, 233);
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+hr {
+  width: 90%;
+  margin-top: 30px;
+  border-color: rgba(47, 62, 83, 1);
+}
+
+.p1,
+.p2 {
+  font-size:xx-large;
+}
+.p2,
+.p3 {
+    margin-top: -30px;
+    
+}
+.p33{
+    margin-bottom: 30px;
+}
+
+.generated {
+  display: flex;
+  justify-content: space-around;
+}
+.pass {
+  background-color: rgba(47, 62, 83, 1);
+  color: rgba(74, 223, 134, 1);
+  width: 40%;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+}
