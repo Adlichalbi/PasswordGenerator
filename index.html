@@ -18,8 +18,10 @@
       <button class="btn" id="btn">Generate passwords</button>
       <hr />
       <div class="generated">
-        <p class="pass" id="password1"></p>
-        <p class="pass" id="password2"></p>
+        <p class="pass" id="password1" onclick="copyText('password1')"></p>
+        <p class="pass" id="password2" onclick="copyText('password2')"></p>
+        <span id="snackbar">Successfully Copied</span>
+
       </div>
     </div>
     <script src="app.js"></script>
